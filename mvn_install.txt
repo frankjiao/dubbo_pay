@@ -1,0 +1,17 @@
+mvn install:install-file -Dfile=E:\javanewwork\dubbo\fastdfs_client.jar -DgroupId=org.csource -DartifactId=fastdfs-client-java -Dversion=1.25 -Dpackaging=jar
+
+
+
+mvn install:install-file -Dfile=E:\javanewwork\dubbo\kaptcha-2.3.2.jar -DgroupId=google.code -DartifactId=kaptcha -Dversion=2.3.2 -Dpackaging=jar
+
+
+
+mvn install:install-file -Dfile=E:\javanewwork\dubbo\groboutils-core-5.jar -DgroupId=gfakepath -DartifactId=groboutils-core -Dversion=5 -Dpackaging=jar
+
+
+
+mvn install:install-file -Dfile=E:\javanewwork\dubbo\pinyin4j-2.5.0.jar -DgroupId=com.pinyin4j -DartifactId=pinyin4j -Dversion=2.5.0 -Dpackaging=jar
+
+
+
+java -cp druid-1.0.16.jar com.alibaba.druid.filter.config.ConfigTools you_password
